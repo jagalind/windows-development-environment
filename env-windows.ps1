@@ -1,6 +1,8 @@
 #-------------------------------------------------------------------------------#
 # This script installs all the stuff we need to develop things.                 #
-# Run PowerShell with admin priveleges, type `env-windows`, and go make coffee. #
+# Run PowerShell with admin priveleges and this to allow script to run:         #
+# `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`                  #  
+# Then type `env-windows`, and go make some coffee.                             #
 #-------------------------------------------------------------------------------#
 
 # Functions
