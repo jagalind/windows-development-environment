@@ -43,8 +43,8 @@ Update-Environment-Path
 # git config --global alias.aliases "config --get-regexp alias"
 # Update-Environment-Path
 
-# C/C++ Languages
-choco install VisualStudio2015Community --yes --timeout 0 -package-parameters "--AdminFile .\tools_msvc2015AdminDeployment.xml"
+# C/C++ Languages - Need to figure out VisualStudio2012 & 2013
+# choco install VisualStudio2015Community --yes --timeout 0 -package-parameters "--AdminFile .\tools_msvc2015AdminDeployment.xml"
 
 # VS Code
 choco install vscode --yes
@@ -82,8 +82,8 @@ choco install MobaXTerm --yes
 # FTDI Drivers - Checksum Fails - Ignore for now
 choco install ftdi-drivers --ignore-checksums --yes 
 
-# MS Office 2018 - Stil pre-production
-choco install --yes office2019-proplus --pre
+# MS Office 2018 - Stil pre-production - What do we want to do
+# choco install --yes office2019-proplus --pre
 
 Update-Environment-Path
 
