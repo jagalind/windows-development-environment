@@ -1,10 +1,6 @@
 #-------------------------------------------------------------------------------#
-#                                                                               #
-# This script installs all the stuff I need to develop the things I develop.    #
+# This script installs all the stuff we need to develop things.                 #
 # Run PowerShell with admin priveleges, type `env-windows`, and go make coffee. #
-#                                                                               #
-#                                                                        -James #
-#                                                                               #
 #-------------------------------------------------------------------------------#
 
 # Functions
